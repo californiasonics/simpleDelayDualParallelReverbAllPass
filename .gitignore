@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Arduino (exported binaries)
+*.ino.bin
+*.ino.hex
+*.ino.elf
+
+# C / C++ builds
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large media (use GitHub Releases instead)
+*.wav
+*.mp4
